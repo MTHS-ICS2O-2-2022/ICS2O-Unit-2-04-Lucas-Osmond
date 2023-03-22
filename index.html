@@ -38,8 +38,7 @@
             </th>
             <th>
               <h2>Formulas</h2>
-              <h3>A = L x W</h3>
-              <h3>P = 2 x (L + W)</h3>
+              <h3>A = B x H / 2</h3>
             </th>
           </tr>
         </table>
@@ -47,8 +46,8 @@
         <form action="#">
           <p>Base</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="Base-of-triangle" />
-            <label class="mdl-textfield__label" for="length-of-rectangle">base ...</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="base-of-triangle" />
+            <label class="mdl-textfield__label" for="base-of-triangle">base ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -56,8 +55,8 @@
         <form action="#">
           <p>Height</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="Height-of-triangle" />
-            <label class="mdl-textfield__label" for="width-of-rectangle">height ...</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-triangle" />
+            <label class="mdl-textfield__label" for="height-of-triangle">height ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -70,7 +69,6 @@
         <br />
         <div id="answers">
           <div id="area"></div>
-          <div id="perimeter"></div>
         </div>
       </main>
       </div>
