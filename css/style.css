@@ -36,3 +36,9 @@ body {
   padding-left: 15pt;
   padding-right: 25pt;
 }
+
+.shape {
+  float: right;
+  width: 270px;
+  height: auto;
+}
